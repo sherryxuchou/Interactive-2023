@@ -1,0 +1,15 @@
+h1 {
+	font-family: Avenir;
+	font-size: 38px;
+	color: white;
+	line-height: 42px;
+}
+#bigger {
+	font-size: 120px;
+	font-style: italic;
+}
+#bigger2 {
+	font-size: 70px;
+	font-style: italic;
+	line-height: 60px;
+}
