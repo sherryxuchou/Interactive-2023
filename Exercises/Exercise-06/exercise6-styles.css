@@ -1,0 +1,14 @@
+body {
+	background-color:#9F000F;
+	font-family: monospace;
+	color: white;
+	font-size: 24px;
+}
+
+a {
+	color: #CEC18D;
+}
+
+a:hover{
+	color: #a2ad9c;
+}
