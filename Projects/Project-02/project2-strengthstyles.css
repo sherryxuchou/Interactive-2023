@@ -1,0 +1,52 @@
+body{
+	background-color: white;
+	font-family: didot;
+}
+
+.container-1{
+	font-size: 30px;
+	position: absolute;
+	width: 490px;
+}
+
+.container-1 p{
+	color: #4b1248;
+	text-align: justify;
+}
+
+.strength-card{
+	position: absolute;
+	right: 0px;
+	padding: 0px 20px 50px 10px;
+}
+
+.strength-1 img{
+	position: absolute;
+	left: 420px;
+	padding: 240px 20px 50px 10px;
+	width: 350px;
+	height: auto;
+}
+
+.strength-2 img{
+	position: absolute;
+	left: 750px;
+	padding: 30px 20px 50px 0px;
+	width: 470px;
+	height: auto;
+}
+
+.container-2{
+	background-image: linear-gradient(to left top, #f5b750, #ffc177, #ffcd9b, #ffdbbe, #feeadf);	
+	position: absolute;
+	right: 600px;
+	display: inline-block;
+	width: 600px;
+	height: 840px;
+}
+
+@media print and (orientation: landscape){
+	.bg-text{
+		background-color: white;
+	}
+}

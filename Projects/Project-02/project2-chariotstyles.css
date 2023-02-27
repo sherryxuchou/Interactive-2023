@@ -1,0 +1,52 @@
+body{
+	background-color: white;
+	font-family: didot;
+}
+
+.container-1{
+	font-size: 30px;
+	position: absolute;
+	width: 570px;
+}
+
+.container-1 p{
+	color: #4b1248;
+	text-align: justify;
+}
+
+.chariot-card{
+	position: absolute;
+	right: 0px;
+	padding: 0px 20px 50px 10px;
+}
+
+.chariot-1 img{
+	position: absolute;
+	left: 420px;
+	padding: 200px 20px 50px 10px;
+	width: 350px;
+	height: auto;
+}
+
+.chariot-2 img{
+	position: absolute;
+	left: 750px;
+	padding: 0px 20px 50px 0px;
+	width: 470px;
+	height: auto;
+}
+
+.container-2{
+	background: linear-gradient(to right, #fbd158, #b2da74, #74d8a3, #56cec9, #71bfd6);	
+	position: absolute;
+	right: 500px;
+	display: inline-block;
+	width: 700px;
+	height: 840px;
+}
+
+@media print and (orientation: landscape){
+	.bg-text{
+		background-color: white;
+	}
+}

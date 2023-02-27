@@ -1,0 +1,53 @@
+body{
+	background-color: white;
+	font-family: didot;
+}
+
+.container-1{
+	font-size: 30px;
+	position: absolute;
+	width: 480px;
+}
+
+.container-1 p{
+	color: #4b1248;
+	text-align: justify;
+}
+
+.priestess-card{
+	position: absolute;
+	right: 0px;
+	padding: 0px 20px 50px 10px;
+}
+
+.priestess-1 img{
+	position: absolute;
+	left: 470px;
+	padding: 10px 20px 50px 10px;
+	width: 350px;
+	height: auto;
+}
+
+.priestess-2 img{
+	position: absolute;
+	left: 800px;
+	padding: 70px 20px 50px 0px;
+	width: 470px;
+	height: auto;
+}
+
+.container-2{
+	background: linear-gradient(to right bottom, #45b6c4, #3ea3c2, #488fb9, #587bab, #646696);	
+	position: absolute;
+	right: 500px;
+	display: inline-block;
+	width: 600px;
+	height: 840px;
+}
+
+
+@media print and (orientation: landscape){
+	.bg-text{
+		background-color: white;
+	}
+}

@@ -1,0 +1,75 @@
+body{
+	background-size: 100%;
+}
+
+.bg-text p {
+	font-size: 90px;
+	font-family: didot;
+	background: linear-gradient(to right, #f0c27b, #4b1248);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	position: absolute;
+}
+
+.bg-text p a:hover {
+	font-size: 90px;
+	font-family: didot;
+	background: linear-gradient(to right, #3738AA, #81CE11);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	position: relative;
+}
+
+.overlay-1{
+	position: absolute;
+	left: 0px;
+}
+
+.overlay-2{
+	position: absolute;
+	right: 0px;
+	padding: 100px 20px 50px 10px;
+}
+
+.overlay-3{
+	position: absolute;
+	right: 800px;
+	padding: 200px 20px 50px 10px;
+}
+
+.overlay-4{
+	position: absolute;
+	left: 300px;
+	padding: 740px 20px 50px 10px;
+}
+
+.overlay-5{
+	position: absolute;
+	right: 500px;
+	padding: 0px 20px 50px 10px;
+}
+
+.overlay-6{
+	position: absolute;
+	right: 0px;
+	padding: 600px 20px 50px 10px;
+}
+
+.overlay-7{
+	position: absolute;
+	right: 400px;
+	padding: 1050px 20px 50px 10px;
+}
+
+@media print and (orientation: landscape){
+	.bg-text{
+		background-color: white;
+	}
+	.overlay-1{}
+	.overlay-2{}
+	.overlay-3{}
+	.overlay-4{}
+	.overlay-5{}
+	.overlay-6{}
+	.overlay-7{}
+}
