@@ -6,7 +6,8 @@ body{
 .container-1{
 	font-size: 30px;
 	position: absolute;
-	width: 600px;
+	width: 380px;
+	padding: 260px 20px 50px 0px;
 }
 
 .container-1 p{
@@ -20,28 +21,28 @@ body{
 	padding: 0px 20px 50px 10px;
 }
 
-.lovers-1 img{
+.wheel-1 img{
 	position: absolute;
-	left: 380px;
-	padding: 200px 20px 50px 10px;
+	left: 390px;
+	padding: 80px 20px 50px 10px;
 	width: 350px;
 	height: auto;
 }
 
-.lovers-2 img{
+.wheel-2 img{
 	position: absolute;
 	left: 740px;
-	padding: 80px 20px 50px 0px;
+	padding: 60px 20px 50px 0px;
 	width: 470px;
 	height: auto;
 }
 
 .container-2{
-	background: linear-gradient(to right bottom, #aa92b6, #796d87, #4e495a, #282730, #010103);	
+	background: linear-gradient(to left bottom, #78c4c0, #6bc69e, #87c16b, #b8b532, #f09b0c);	
 	position: absolute;
 	right: 700px;
 	display: inline-block;
-	width: 450px;
+	width: 800px;
 	height: 840px;
 }
 

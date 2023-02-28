@@ -6,7 +6,7 @@ body{
 .container-1{
 	font-size: 30px;
 	position: absolute;
-	width: 520px;
+	width: 640px;
 }
 
 .container-1 p{
@@ -14,7 +14,7 @@ body{
 	text-align: justify;
 }
 
-.emperor-card{
+.set-card{
 	position: absolute;
 	right: 0px;
 	padding: 0px 20px 50px 10px;
@@ -23,7 +23,7 @@ body{
 .emperor-1 img{
 	position: absolute;
 	left: 400px;
-	padding: 200px 20px 50px 10px;
+	padding: 230px 20px 50px 10px;
 	width: 350px;
 	height: auto;
 }

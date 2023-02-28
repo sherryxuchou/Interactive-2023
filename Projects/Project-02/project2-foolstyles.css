@@ -7,6 +7,7 @@ body{
 	font-size: 30px;
 	position: absolute;
 	width: 480px;
+	padding: 170px 20px 50px 0px;
 }
 
 .container-1 p{
@@ -14,7 +15,7 @@ body{
 	text-align: justify;
 }
 
-.fool-card{
+.set-card{
 	position: absolute;
 	right: 0px;
 	padding: 0px 20px 50px 10px;
@@ -41,7 +42,7 @@ body{
 	position: absolute;
 	right: 500px;
 	display: inline-block;
-	width: 600px;
+	width: 1000px;
 	height: 840px;
 }
 

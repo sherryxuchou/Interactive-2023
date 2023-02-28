@@ -6,7 +6,7 @@ body{
 .container-1{
 	font-size: 30px;
 	position: absolute;
-	width: 460px;
+	width: 630px;
 }
 
 .container-1 p{
@@ -14,7 +14,7 @@ body{
 	text-align: justify;
 }
 
-.magician-card{
+.set-card{
 	position: absolute;
 	right: 0px;
 	padding: 0px 20px 50px 10px;
