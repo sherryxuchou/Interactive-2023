@@ -46,8 +46,43 @@ body{
 	height: 840px;
 }
 
-@media print and (orientation: landscape){
-	.bg-text{
-		background-color: white;
+@media print{
+	.justice-2 img{
+		left: -20px;
+		top: 300px;
+		position: relative;
+	}
+
+	.justice-1 img{
+		left: 70px;
+		top: 50px;
+		opacity: 0.5;
+	}
+
+	.container-1{
+		break-inside: avoid;
+		padding: 80px 0px 0px 0px;
+		width: 480px;
+	}
+
+	.container-1 p{
+		font-size: 26pt;
+		color: white;
+	}
+
+	.container-2{
+		left: 0px;
+	}
+
+	.set-card img{
+		left: 25px;
+		top: 0px;
+		position: relative;
 	}
 }
+
+@page{
+	size: 4.75in 7in;
+	margin: 0.5in 0.5in 0.5in 0.5in;
+}
+

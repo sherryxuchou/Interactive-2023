@@ -46,8 +46,43 @@ body{
 	height: 840px;
 }
 
-@media print and (orientation: landscape){
-	.bg-text{
-		background-color: white;
+@media print{
+	.wheel-2 img{
+		left: 270px;
+		top: 1000px;
+		position: relative;
+	}
+
+	.wheel-1 img{
+		left: 30px;
+		top: -10px;
+		opacity: 0.5;
+	}
+
+	.container-1{
+		break-inside: avoid;
+		padding: 60px 0px 0px 0px;
+		width: 515px;
+	}
+
+	.container-1 p{
+		font-size: 24pt;
+		color: white;
+	}
+
+	.container-2{
+		left: 0px;
+	}
+
+	.set-card img{
+		left: -60px;
+		top: 0px;
+		position: relative;
 	}
 }
+
+@page{
+	size: 4.75in 7in;
+	margin: 0.5in 0.5in 0.5in 0.5in;
+}
+

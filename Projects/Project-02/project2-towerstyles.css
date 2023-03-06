@@ -41,12 +41,46 @@ body{
 	position: absolute;
 	right: 700px;
 	display: inline-block;
-	width: 400px;
+	width: 860px;
 	height: 840px;
 }
 
-@media print and (orientation: landscape){
-	.bg-text{
-		background-color: white;
+@media print{
+	.tower-2 img{
+		left: 170px;
+		top: 800px;
+		position: relative;
 	}
+
+	.tower-1 img{
+		left: 30px;
+		top: -100px;
+		opacity: 0.5;
+	}
+
+	.container-1{
+		break-inside: avoid;
+		padding: 60px 0px 0px 0px;
+		width: 515px;
+	}
+
+	.container-1 p{
+		font-size: 24pt;
+		color: white;
+	}
+
+	.container-2{
+		left: 0px;
+	}
+
+	.set-card img{
+		left: -160px;
+		top: 0px;
+		position: relative;
+	}
+}
+
+@page{
+	size: 4.75in 7in;
+	margin: 0.5in 0.5in 0.5in 0.5in;
 }
