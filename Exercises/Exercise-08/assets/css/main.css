@@ -13,7 +13,7 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: white;
+	background: #c2b5a8;
 	position: relative;
 	border: solid black 5px;
 }
@@ -21,11 +21,20 @@ body {
 
 /* this is where you can style the objects in your still life */
 
-.square{
+.cat-head{
 	width: 100px;
 	height: 100px;
-	background: blue;
+	background: white;
 	position: absolute;
-	top: 100px;
+	top: 120px;
 	left: 200px;
+	border-radius: 50%;
+}
+
+.cat-ears{
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 0;
+	border-bottom: 100px white;
 }
