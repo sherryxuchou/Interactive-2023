@@ -87,7 +87,7 @@ body {
 	transform: rotate(40deg);
 }
 
-.cat-eyes:before{
+.cat-eyes-left{
 	width: 15px;
 	height: 15px;
 	background: black;
@@ -97,12 +97,26 @@ body {
 	border-radius: 50%;
 }
 
-.cat-eyes:after{
+.cat-eyes-right{
 	width: 15px;
 	height: 15px;
 	background: black;
 	position: absolute;
 	top: 160px;
-	left: 240px;
+	left: 262px;
 	border-radius: 50%;
+}
+
+.cat-nose{
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 13px solid pink;
+	border-radius: 5px;
+	position: absolute;
+	content: "";
+	left: 242px;
+	top: 175px;
+	transform: rotate(180deg);
 }
