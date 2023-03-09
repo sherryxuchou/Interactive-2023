@@ -61,15 +61,42 @@ body{
 	padding: 1050px 20px 50px 10px;
 }
 
-@media print and (orientation: landscape){
-	.bg-text{
-		background-color: white;
+@media print{
+	.overlay-1{
+		position: absolute;
+		right: 0px;
+		padding: 165px 20px 50px 10px;
 	}
-	.overlay-1{}
-	.overlay-2{}
-	.overlay-3{}
-	.overlay-4{}
-	.overlay-5{}
-	.overlay-6{}
-	.overlay-7{}
+	.overlay-2{
+		position: absolute;
+		right:350px;
+		top: 1000px;
+	}
+	.overlay-3{
+		position: absolute;
+		right: 650px;
+		top: 700px;
+		padding: 800px 20px 50px 10px;
+	}
+	.overlay-4 img{
+		position: absolute;
+		top: 800px;
+		left: 300px;
+	}
+	.overlay-5{
+		position: absolute;
+		right: 100px;
+		padding: 0px 60px 50px 10px;
+	}
+	.overlay-6{
+		position: absolute;
+		top: 1600px;
+		padding: 0px 20px 50px 10px;
+	}
+	.overlay-7{
+		position: absolute;
+		right: 200px;
+		top: 2219px;
+		padding: 1050px 20px 50px 10px;
+	}
 }

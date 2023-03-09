@@ -37,7 +37,7 @@ body{
 }
 
 .container-2{
-	background-image: linear-gradient(to left top, #f5b750, #ffc177, #ffcd9b, #ffdbbe, #feeadf);	
+	background: linear-gradient(to right bottom, #c50d3f, #d8463b, #e66d3a, #f09240, #f6b54f);	
 	position: absolute;
 	right: 600px;
 	display: inline-block;
@@ -60,12 +60,12 @@ body{
 
 	.container-1{
 		break-inside: avoid;
-		padding: 60px 0px 0px 0px;
-		width: 515px;
+		padding: 80px 0px 0px 30px;
+		width: 460px;
 	}
 
 	.container-1 p{
-		font-size: 25pt;
+		font-size: 24pt;
 		color: white;
 	}
 

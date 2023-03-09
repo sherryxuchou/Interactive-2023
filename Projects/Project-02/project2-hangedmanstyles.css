@@ -60,12 +60,12 @@ body{
 
 	.container-1{
 		break-inside: avoid;
-		padding: 80px 0px 0px 0px;
-		width: 515px;
+		padding: 80px 0px 0px 35px;
+		width: 450px;
 	}
 
 	.container-1 p{
-		font-size: 26pt;
+		font-size: 24pt;
 		color: white;
 	}
 

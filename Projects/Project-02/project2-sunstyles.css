@@ -38,7 +38,7 @@ body{
 }
 
 .container-2{
-	background: linear-gradient(to left top, #f0b104, #ffba54, #ffc786, #ffd6b3, #fce8dd);	
+	background: linear-gradient(to left top, #f0b104, #de1620);	
 	position: absolute;
 	right: 550px;
 	display: inline-block;
@@ -61,11 +61,13 @@ body{
 
 	.container-1{
 		break-inside: avoid;
-		padding: 80px 0px 0px 0px;
+		padding: 80px 0px 0px 35px;
+		width: 440px;
 	}
 
 	.container-1 p{
-		font-size: 28pt;
+		font-size: 24pt;
+		color: white;
 	}
 
 	.container-2{
