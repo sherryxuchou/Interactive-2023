@@ -170,13 +170,6 @@ body{
 	background-color: #d43e27;
 	position: absolute;
 	top: 550px;
-	animation-name: h4;
-	animation-duration: 4s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .horizontal14{
@@ -185,13 +178,6 @@ body{
 	background-color: #d43e27;
 	position: absolute;
 	top: 610px;
-	animation-name: h4;
-	animation-duration: 4s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .horizontal15{
@@ -200,13 +186,6 @@ body{
 	background-color: #d43e27;
 	position: absolute;
 	top: 670px;
-	animation-name: h4;
-	animation-duration: 4s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .horizontal16{
@@ -215,13 +194,6 @@ body{
 	background-color: #978e9a;
 	position: absolute;
 	top: 730px;
-	animation-name: h5;
-	animation-duration: 4s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .horizontal17{
@@ -230,13 +202,6 @@ body{
 	background-color: #000000;
 	position: absolute;
 	top: 760px;
-	animation-name: h6;
-	animation-duration: 4s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .horizontal18{
@@ -245,13 +210,6 @@ body{
 	background-color: #978e9a;
 	position: absolute;
 	top: 790px;
-	animation-name: h7;
-	animation-duration: 4s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .horizontal19{
@@ -260,13 +218,6 @@ body{
 	background-color: #000000;
 	position: absolute;
 	top: 820px;
-	animation-name: h6;
-	animation-duration: 4s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .horizontal20{
@@ -275,13 +226,6 @@ body{
 	background-color: #978e9a;
 	position: absolute;
 	top: 850px;
-	animation-name: h8;
-	animation-duration: 4s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .horizontal21{
@@ -290,13 +234,6 @@ body{
 	background-color: #000000;
 	position: absolute;
 	top: 880px;
-	animation-name: h6;
-	animation-duration: 4s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .rect1{
@@ -306,13 +243,6 @@ body{
 	background-color: #e3ca49;
 	position: relative;
 	left: 0px;
-	animation-name: h9;
-	animation-duration: 8s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .rect2{
@@ -322,13 +252,6 @@ body{
 	background-color: #000000;
 	position: relative;
 	left: 200px;
-	animation-name: h9;
-	animation-duration: 8s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .rect3{
@@ -338,13 +261,6 @@ body{
 	background-color: #978e9a;
 	position: relative;
 	left: 400px;
-	animation-name: h9;
-	animation-duration: 8s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .rect4{
@@ -354,13 +270,6 @@ body{
 	background-color: #d43e27;
 	position: relative;
 	left: 600px;
-	animation-name: h9;
-	animation-duration: 8s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .rect5{
@@ -370,13 +279,6 @@ body{
 	background-color: #d43e27;
 	position: relative;
 	left: 800px;
-	animation-name: h9;
-	animation-duration: 8s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
 }
 
 .rect6{
@@ -386,102 +288,4 @@ body{
 	background-color: #e3ca49;
 	position: relative;
 	left: 1000px;
-	animation-name: h9;
-	animation-duration: 8s;
-	animation-timing-function: ease;
-	animation-iteration-count: infinite;
-	animation-fill-mode: forwards;
-	animation-direction: normal;
-	animation-play-state: running;
-}
-
-@keyframes h1{
-	from {
-		margin-left: 100%;
-		background-color: #000000;
-	}
-	to{
-		margin-left: 0%;
-		background-color: #978e9a;
-	}
-}
-
-@keyframes h2{
-	from{
-		transform: scale(-3, 6);
-	}
-	to{
-		tranform: scale(1);
-	}
-}
-
-@keyframes h3{
-	from{
-		transform: translate(0px, 400px);
-		background-color: #ffffff;
-	}
-	to{
-		transform: translate(0px, 0px);
-		background-color: #000000;
-	}
-}
-
-@keyframes h4{
-	from{
-		transform: translate3d(60px, -200px, 20px);
-	}
-	to{
-		transform: translate3d(0px, 0px, 0px);
-	}
-}
-
-@keyframes h5{
-	from{
-		transform: rotate(90deg);
-		background-color: #e3ca49;
-	}
-	to{
-		transform: rotate(0deg);
-		background-color: #978e9a;
-	}
-}
-
-@keyframes h6{
-	from{
-		transform: rotate3d(300, 10, 200, 170deg);
-	}
-	to{
-		transform: rotate3d(0, 0, 0, 0);
-	}
-}
-
-@keyframes h7{
-	from{
-		transform: rotate(180deg);
-		background-color: #e3ca49;
-	}
-	to{
-		transform: rotate(0deg);
-		background-color: #978e9a;
-	}
-}
-
-@keyframes h8{
-	from{
-		transform: rotate(270deg);
-		background-color: #e3ca49;
-	}
-	to{
-		transform: rotate(0deg);
-		background-color: #978e9a;
-	}
-}
-
-@keyframes h9{
-	from{
-		opacity: 0%;
-	}
-	to{
-		opacity: 100%;
-	}
 }
