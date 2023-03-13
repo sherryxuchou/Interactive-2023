@@ -1,0 +1,36 @@
+body{
+  background: black;
+}
+
+.cat {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50% 50% 40% 40%;
+  position: relative;
+}
+
+.cat::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 50px;
+  background-color: white;
+  border-radius: 0 0 50% 50%;
+  position: absolute;
+  top: 0;
+  right: -15px;
+}
+
+.cat::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  left: 5px;
+  box-shadow: 30px 0 0 white;
+}

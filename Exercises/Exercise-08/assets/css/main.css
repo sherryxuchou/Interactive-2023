@@ -23,7 +23,7 @@ body {
 .cat-body{
 	width: 175px;
 	height: 100px;
-	top: 122px;
+	top: 300px;
 	left: 220px;
 	background: white;
 	border-radius: 40%;
@@ -33,7 +33,7 @@ body {
 .cat-tail{
 	width: 95px;
 	height: 170px;
-	top: 50px;
+	top: 228px;
 	left: 320px;
 	background: white;
 	border-radius: 40%;
@@ -46,7 +46,7 @@ body {
 	height: 100px;
 	background: white;
 	position: absolute;
-	top: 120px;
+	top: 298px;
 	left: 200px;
 	border-radius: 50%;
 }
@@ -60,7 +60,7 @@ body {
 	position: absolute;
 	content: "";
 	left: 185px;
-	top: 105px;
+	top: 283px;
 	transform: rotate(-40deg);
 }
 
@@ -73,7 +73,7 @@ body {
 	position: absolute;
 	content: "";
 	left: 200px;
-	top: 115px;
+	top: 293px;
 	transform: rotate(-40deg);
 }
 
@@ -86,7 +86,7 @@ body {
 	position: absolute;
 	content: "";
 	right: 575px;
-	top: 105px;
+	top: 283px;
 	transform: rotate(40deg);
 }
 
@@ -99,7 +99,7 @@ body {
 	position: absolute;
 	content: "";
 	left: 270px;
-	top: 115px;
+	top: 293px;
 	transform: rotate(40deg);
 }
 
@@ -108,9 +108,16 @@ body {
 	height: 15px;
 	background: black;
 	position: absolute;
-	top: 160px;
+	top: 338px;
 	left: 220px;
 	border-radius: 50%;
+	transition: border-radius;
+}
+
+.cat-eyes-left:hover{
+	border-radius: 0%;
+	height: 5px;
+	top: 340px;
 }
 
 .cat-eyes-right{
@@ -118,62 +125,103 @@ body {
 	height: 15px;
 	background: black;
 	position: absolute;
-	top: 160px;
+	top: 338px;
 	left: 262px;
 	border-radius: 50%;
+	transition: border-radius;
+}
+
+.cat-eyes-right:hover{
+	border-radius: 0%;
+	height: 5px;
+	top: 340px;
 }
 
 .cat-nose{
 	width: 0;
 	height: 0;
+	position: absolute;
+	left: 242px;
+	top: 353px;
+	content: "";
 	border-left: 8px solid transparent;
 	border-right: 8px solid transparent;
 	border-bottom: 13px solid pink;
 	border-radius: 5px;
-	position: absolute;
-	content: "";
-	left: 242px;
-	top: 175px;
 	transform: rotate(180deg);
 }
 
 .cat-foot1{
 	width: 0;
 	height: 0;
+	position: absolute;
+	left: 215px;
+	top: 388px;
+	content: "";
 	border-left: 9px solid transparent;
 	border-right: 9px solid transparent;
 	border-bottom: 25px solid white;
-	position: absolute;
-	content: "";
-	left: 215px;
-	top: 210px;
 	transform: rotate(200deg);
 }
 
 .cat-foot2{
 	width: 0;
 	height: 0;
+	position: absolute;
+	left: 270px;
+	top: 388px;
+	content: "";
 	border-left: 9px solid transparent;
 	border-right: 9px solid transparent;
 	border-bottom: 25px solid white;
-	position: absolute;
-	content: "";
-	left: 270px;
-	top: 210px;
 	transform: rotate(170deg);
 }
 
 .cat-foot3{
 	width: 0;
 	height: 0;
+	position: absolute;
+	left: 345px;
+	top: 388px;
+	content: "";
 	border-left: 9px solid transparent;
 	border-right: 9px solid transparent;
 	border-bottom: 25px solid white;
-	position: absolute;
-	content: "";
-	left: 345px;
-	top: 210px;
 	transform: rotate(170deg);
+}
+
+.cat-mouth{
+	width: 50px;
+	height: 11px;
+	position: absolute;
+	top: 365px;
+	left: 225px;
+	overflow: hidden;
+}
+
+.cat-mouth:before{
+	width: 25px;
+	height: 15px;
+	border: 2px solid black;
+	border-radius: 50%;
+	content: "";
+	display: block;
+	position: absolute;
+	left: -3px;
+	bottom: 0;
+	
+}
+
+.cat-mouth:after{
+	width: 25px;
+	height: 15px;
+	border: 2px solid black;
+	border-radius: 50%;
+	content: "";
+	display: block;
+	position: absolute;
+	right: -3px;
+	bottom: 0;
 }
 
 .candle1{
@@ -182,8 +230,9 @@ body {
 	border-radius: 50%;
 	background: white;
 	position: absolute;
-	top: 30px;
+	top: 220px;
 	left: 500px;
+	box-shadow: 0 0 20px gray;
 }
 
 .candle2{
@@ -192,8 +241,9 @@ body {
 	border-radius: 50%;
 	background: white;
 	position: absolute;
-	top: 70px;
-	left: 480px;
+	top: 248px;
+	left: 460px;
+	box-shadow: 0 0 20px gray;
 }
 
 .candle3{
@@ -202,8 +252,9 @@ body {
 	border-radius: 50%;
 	background: white;
 	position: absolute;
-	top: 100px;
+	top: 278px;
 	left: 440px;
+	box-shadow: 0 0 20px gray;
 }
 
 .candle4{
@@ -212,8 +263,9 @@ body {
 	border-radius: 50%;
 	background: white;
 	position: absolute;
-	top: 110px;
+	top: 288px;
 	left: 500px;
+	box-shadow: 0 0 20px gray;
 }
 
 .candle5{
@@ -222,6 +274,200 @@ body {
 	border-radius: 50%;
 	background: white;
 	position: absolute;
-	top: 70px;
+	top: 248px;
 	left: 580px;
+	box-shadow: 0 0 20px gray;
+}
+
+.candle6{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;
+	top: 248px;
+	left: 525px;
+	box-shadow: 0 0 20px gray;
+}
+
+.box-face1{
+	width: 190px;
+	height:50px;
+	position: absolute;
+	top: 430px;
+	left: 160px;
+	background: white;
+}
+
+.box-face2{
+	width: 190px;
+	height:30px;
+	position: absolute;
+	top: 400px;
+	left: 200px;
+	background: navy;
+	transform: skew(-70deg);
+}
+
+.box-face3{
+	width: 84px;
+	height:50px;
+	position: absolute;
+	top: 415px;
+	left: 348px;
+	background: navy;
+	transform: rotate(-20deg) skew(-20deg);
+}
+
+.candlestand{
+	width: 230px;
+	height: 50px;
+	border-radius: 50%;
+	background: #a8ccd7;
+	position: absolute;
+	top: 400px;
+	left: 455px;
+	opacity: 80%;
+}
+
+.candlestand-bottom{
+	width: 230px;
+	height: 50px;
+	border-radius: 30%;
+	background: #a8ccd7;
+	position: absolute;
+	top: 415px;
+	left: 455px;
+	opacity: 80%;
+}
+
+.fire{
+	width: 20px;
+	height: 55px;
+	border-radius: 50%;
+	background: radial-gradient(circle at top left, #FFDB01, #CE2024);
+	position: absolute;
+	top: 210px;
+	left: 540px;
+	filter: blur(2px);
+	transition: background 1s ease;
+}
+
+.fire:hover{
+	background: radial-gradient(circle at bottom right, #043F98, #B7E8EB);
+}
+
+.vase-bottom{
+	width: 280px;
+	height: 290px;
+	border-radius: 50%;
+	background: #f6feff;
+	position: absolute;
+	top: 220px;
+	left: 290px;
+	opacity: 50%;
+}
+
+.vase-neck{
+	width: 180px;
+	height: 0;
+	background: #c2b5a8;
+	position: absolute;
+	top: 90px;
+	left: 332px;
+	opacity: 50%;
+	border-bottom: 140px solid #f6feff;
+	border-left: 0px solid transparent;
+	border-right: 75px solid transparent;
+	transform: rotate(270deg);
+}
+
+.vase-lip{
+	width: 160px;
+	height: 50px;
+	border-radius: 50%;
+	background: #f6feff;
+	position: absolute;
+	top: 85px;
+	left: 342px;
+	opacity: 50%;
+	transform: rotate(-30deg);
+}
+
+.plant1{
+	width: 200px; 
+  	height: 100px;
+  	border-radius: 50%/70px 70px 0 0;  
+  	border: solid 10px forestgreen;
+  	border-color: forestgreen transparent transparent transparent;
+  	transform: rotate(70deg);
+	position: absolute;
+	top: 300px;
+	left: 310px;
+	animation-name: p1;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	animation-direction: normal;
+	animation-play-state: running;
+}
+
+.plant2{
+	width: 160px; 
+  	height: 130px;  
+  	border-radius: 50%/70px 70px 0 0;
+  	border: solid 6px lightgreen;
+  	border-color: lightgreen transparent transparent transparent;
+  	transform: rotate(70deg);
+	position: absolute;
+	top: 300px;
+	left: 322px;
+	animation-name: p1;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	animation-direction: normal;
+	animation-play-state: running;
+}
+
+.plant3{
+	width: 160px; 
+  	height: 120px;  
+  	border-radius: 50%/95px 95px 0 0;
+  	border: solid 6px darkgreen;
+  	border-color: darkgreen transparent transparent transparent;
+  	transform: rotate(70deg);
+	position: absolute;
+	top: 310px;
+	left: 340px;
+	animation-name: p1;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	animation-direction: normal;
+	animation-play-state: running;
+}
+
+@keyframes p1{
+	from{
+		top: 355px;
+		transform: rotate(180deg);
+	}
+	to{
+		top: 300px;
+		transform: rotate(70deg);
+	}
+}
+
+.dirt{
+	width: 200px;
+    height: 105px;
+    border-radius: 0 0 90px 90px;
+    background-color: #9b7653;
+    position: absolute;
+    top: 395px;
+    left: 330px;
 }
