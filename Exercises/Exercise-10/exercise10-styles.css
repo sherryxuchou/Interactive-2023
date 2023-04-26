@@ -1,0 +1,436 @@
+body{
+	background-color: floralwhite;
+	font-family: avenir, sans-serif;
+	font-weight: bold;
+	color: #8A9A5B;
+}
+
+.month-header{
+	width: 1001px;
+	height: 50px;
+	outline: thick double #8A9A5B;
+	position: relative;
+	top: 20px;
+	font-size: 30pt;
+}
+
+.month-header:hover{
+	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	color: floralwhite;
+
+}
+
+.month {
+	max-width: 1001px;
+	position: relative;
+	top: 60px;
+}
+
+.weeklabels{
+	display: flex;
+	flex-flow: row;
+	font-size: 14pt;
+	padding: 0px 30px 30px 30px;
+}
+
+.week{
+	display: flex;
+	flex-flow: row wrap;
+	height: 143px;
+}
+
+.emptyday{
+	background-color: transparent;
+	padding: 20px;
+	flex: 1;
+}
+
+.day1{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day1:hover{
+	background-color: #716e8e;
+	color: #504e64;
+}
+
+.day2{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day2:hover{
+	background-color: #24a6a6;
+	color: #247474;
+}
+
+.day3{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day3:hover{
+	background-color: #c65aca;
+	color: #89428c;
+}
+
+.day4{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day4:hover{
+	background-color: #18821a;
+	color: #1b5c18;
+}
+
+.day5{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day5:hover{
+	background-color: #a7e1f0;
+	color: #759ba5;
+}
+
+.day6{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day6:hover{
+	background-color: #ec8b75;
+	color: #a36253;
+}
+
+.day7{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day7:hover{
+	background-color: #ca0647;
+	color: #8d1734;
+}
+
+.day8{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day8:hover{
+	background-color: #dc79af;
+	color: #98567a;
+}
+
+.day9{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day9:hover{
+	background-color: #75f253;
+	color: #55a63e;
+}
+
+.day10{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day10:hover{
+	background-color: #fa00a9;
+	color: #ad1b76;
+}
+
+.day11{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day11:hover{
+	background-color: #127b8d;
+	color: #195763;
+}
+
+.day12{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day12:hover{
+	background-color: #1055cc;
+	color: #1d3d8d;
+}
+
+.day13{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day13:hover{
+	background-color: #f294df;
+	color: #a7689a;
+}
+
+.day14{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day14:hover{
+	background-color: #d9982f;
+	color: #966a26;
+}
+
+.day15{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day15:hover{
+	background-color: #547c2c;
+	color: #3d5722;
+}
+
+.day16{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day16:hover{
+	background-color: #20f253;
+	color: #28a73d;
+}
+
+.day17{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day17:hover{
+	background-color: #ac4310;
+	color: #793211;
+}
+
+.day18{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day18:hover{
+	background-color: #d0cb3f;
+	color: #908c31;
+}
+
+.day19{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day19:hover{
+	background-color: #b9aad9;
+	color: #807696;
+}
+
+.day20{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day20:hover{
+	background-color: #f67cc0;
+	color: #a95885;
+}
+
+.day21{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day21:hover{
+	background-color: #5bd9cd;
+	color: #44968e;
+}
+
+.day22{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day22:hover{
+	background-color: #70d542;
+	color: #519332;
+}
+
+.day23{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day23:hover{
+	background-color: #f2a617;
+	color: #a7741a;
+}
+
+.day24{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day24:hover{
+	background-color: #f4c79f;
+	color: #a88a6f;
+}
+
+.day25{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day25:hover{
+	background-color: #c3ec7f;
+	color: #87a25a;
+}
+
+.day26{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day26:hover{
+	background-color: #ff7a4b;
+	color: #b05737;
+}
+
+.day27{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day27:hover{
+	background-color: #b522a0;
+	color: #7e2170;
+}
+
+.day28{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day28:hover{
+	background-color: #f7d6a4;
+	color: #aa9472;
+}
+
+.day29{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day29:hover{
+	background-color: #08a8e6;
+	color: #1e759e;
+}
+
+.day30{
+	color: white;
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day30:hover{
+	background-color: #caa4b3;
+	color: #8c727c;
+}

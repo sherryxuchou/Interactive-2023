@@ -1,0 +1,86 @@
+body{
+	background-color: floralwhite;
+	font-family: avenir, sans-serif;
+	font-weight: bold;
+	color: #8A9A5B;
+}
+
+.month-header{
+	width: 1001px;
+	height: 50px;
+	outline: thick double #8A9A5B;
+	position: relative;
+	top: 20px;
+	font-size: 30pt;
+}
+
+.month {
+	max-width: 1001px;
+	position: relative;
+	top: 60px;
+}
+
+.weeklabels{
+	display: flex;
+	flex-flow: row;
+	font-size: 14pt;
+	padding: 0px 30px 30px 30px;
+}
+
+.week{
+	display: flex;
+	flex-flow: row wrap;
+	height: 143px;
+}
+
+.emptyday{
+	background-color: #8A9A5B;
+	padding: 20px;
+	flex: 1;
+}
+
+.day{
+	background-color: transparent;
+  perspective: 1000px;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 2px 2px floralwhite,  inset 2px 2px 0 0 floralwhite;
+}
+
+.day-inner{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-style: preserve-3d;
+}
+
+.day:hover .day-inner {
+  transform: rotateY(180deg);
+}
+
+.day-front, .day1-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.day-front {
+  color: white;
+	background-color: #8A9A5B;
+}
+
+.day1-back {
+  background-color: #716e8e;
+  color: white;
+  transform: rotateY(180deg);
+}
+ 
+.week:first-of-type .day:first-of-type {
+  margin-left: 85.65%;
+}
+ 
+.week:last-of-type .day:last-of-type {
+  margin-right: 85.65%;
+}
