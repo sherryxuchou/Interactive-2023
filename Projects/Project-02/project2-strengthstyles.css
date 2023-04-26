@@ -3,6 +3,11 @@ body{
 	font-family: didot;
 }
 
+.home{
+	position: absolute;
+	bottom: 10px;
+}
+
 .container-1{
 	font-size: 30px;
 	position: absolute;
